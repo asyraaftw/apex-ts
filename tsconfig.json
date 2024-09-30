@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/**/*.ts",
+    "src/**/**/*.tsx",
+    "src/**/**/**/*.tsx"
+  ],
+  "lib": ["es2015"]
+}
