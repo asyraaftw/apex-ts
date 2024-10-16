@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "jsx": "react",
+    "jsx": "react",
     "module": "ESNext",
     "esModuleInterop": true,
     "target": "es6",
@@ -13,5 +15,6 @@
     "src/**/**/*.tsx",
     "src/**/**/**/*.tsx"
   ],
+  "exclude": ["node_modules", "dist"],
   "lib": ["es2015"]
 }
